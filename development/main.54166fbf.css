@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap");
+.navbar .navbar-nav .nav-item .nav-link {
+  color: black;
+  margin-right: 1.5rem;
+}
+
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Cormorant Garamond", serif;
   background: #fff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=/main.54166fbf.css.map */
