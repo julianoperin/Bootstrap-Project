@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/main.scss"],"names":[],"mappings":"AAAQ;AAER;EACE;EACA;EACA","file":"main.54166fbf.css","sourceRoot":"../src","sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap\");\n\nbody {\n  font-family: \"Cormorant Garamond\", serif;\n  background: #fff;\n  font-size: 1.5rem;\n}\n"]}
