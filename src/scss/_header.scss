@@ -1,0 +1,52 @@
+// @import "main.scss";
+// ! ******* Variables *******
+$first-color: #38d39f;
+$second-color: #38a4d3;
+$title-color: #141313;
+$text-color: #36373a;
+$border-color: #1c1f32;
+$gradient-color: linear-gradient(90deg, #38d39f 0%, #38a4d3 100%);
+$shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
+
+// body,
+// html {
+//   position: relative !important;
+// }
+
+//! NavBar
+.navbar .navbar-nav .nav-item .nav-link {
+  font-weight: 500;
+  color: black;
+  margin-right: 2.5rem;
+  padding: 0.8rem;
+
+  &:hover {
+    background: $gradient-color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+.btn-primary {
+  background: $gradient-color;
+}
+//! End NavBar
+
+//! Hero
+.site-banner {
+  background: lightgray;
+
+  .banner-image .hero-img {
+    pointer-events: none;
+  }
+
+  .wave {
+    position: absolute !important;
+    top: 0%;
+    right: 0%;
+    z-index: -1;
+    height: 100%;
+    pointer-events: none;
+  }
+}
+//! End Hero

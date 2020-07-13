@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap");
-
-@import "_header.scss";
+@import "header";
 
 body {
+  background: #000;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +10,7 @@ body {
   font-size: 1.3rem;
 }
 
-// ! Variables
+// ! ******* Variables *******
 $first-color: #38d39f;
 $second-color: #38a4d3;
 $title-color: #141313;
@@ -19,4 +18,3 @@ $text-color: #36373a;
 $border-color: #1c1f32;
 $gradient-color: linear-gradient(90deg, #38d39f 0%, #38a4d3 100%);
 $shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
-// $first-color: #4458dc;
