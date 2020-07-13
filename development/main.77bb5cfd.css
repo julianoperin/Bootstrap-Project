@@ -55,6 +55,13 @@ nav {
   pointer-events: none;
 }
 
+.about-area {
+  position: relative;
+  min-height: 100vh;
+}
+.about-area .about-img {
+  width: 750px;
+}
 body {
   background: #000;
   margin: 0;
