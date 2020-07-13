@@ -10,6 +10,9 @@
   background-image: linear-gradient(90deg, #38d39f, #38a4d3, #38d39f);
   border: 3px solid transparent;
   border-radius: 4px;
+  display: block;
+  width: 40%;
+  margin: auto;
 }
 
 .button:hover {
@@ -29,7 +32,6 @@ nav {
   font-weight: 500;
   color: black;
   margin-right: 2.5rem;
-  padding: 0.8rem;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
   background: red;
@@ -38,15 +40,15 @@ nav {
   background-clip: text;
 }
 
-.site-banner .banner-image {
-  width: 80rem;
+.site-banner .row-hero {
+  min-height: 90vh;
 }
 .site-banner .hero-img {
   pointer-events: none;
-  min-height: 90vh;
-  width: 750px;
+  width: 450px;
 }
 .site-banner .wave {
+  display: none;
   position: absolute !important;
   top: 0%;
   right: 0%;
@@ -55,12 +57,31 @@ nav {
   pointer-events: none;
 }
 
-.about-area {
-  position: relative;
+@media only screen and (min-width: 768px) {
+  .wave {
+    display: block !important;
+  }
+
+  .hero-img {
+    width: 650px !important;
+  }
+}
+.about-area .row-about {
   min-height: 100vh;
 }
 .about-area .about-img {
-  width: 750px;
+  width: 450px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-img {
+    display: block !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .about-img {
+    width: 450px !important;
+  }
 }
 body {
   background: #000;
@@ -70,6 +91,12 @@ body {
   font-family: "Cormorant Garamond", serif;
   background: #fff;
   font-size: 1.3rem;
+  overflow-x: hidden !important;
+}
+
+.contain {
+  width: 86% !important;
+  margin: 0 auto !important;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

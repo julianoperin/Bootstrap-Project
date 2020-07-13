@@ -8,13 +8,23 @@ $gradient-color: linear-gradient(90deg, #38d39f 0%, #38a4d3 100%);
 $shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
 
 .about-area {
-  position: relative;
-  min-height: 100vh;
-
-  .about-img {
-    width: 750px;
+  .row-about {
+    min-height: 100vh;
   }
 
-  .about-intro {
+  .about-img {
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about-img {
+    display: block !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .about-img {
+    width: 450px !important;
   }
 }
