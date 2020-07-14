@@ -1,6 +1,10 @@
 @import "header";
 @import "about";
-
+@import "services";
+@import "project";
+html {
+  scroll-behavior: smooth !important;
+}
 body {
   background: #000;
   margin: 0;
@@ -10,6 +14,7 @@ body {
   background: #fff;
   font-size: 1.3rem;
   overflow-x: hidden !important;
+  animation: opening 1.5s ease-in-out forwards;
 }
 
 // ! ******* Variables *******
@@ -24,4 +29,13 @@ $shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
 .contain {
   width: 86% !important;
   margin: 0 auto !important;
+}
+
+@keyframes opening {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
