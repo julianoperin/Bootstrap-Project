@@ -95,6 +95,10 @@ nav {
     order: 2 !important;
   }
 }
+.services-list {
+  min-height: 100vh !important;
+}
+
 .site-main .services-area {
   padding: 7rem 2rem;
 }
@@ -124,6 +128,10 @@ nav {
     width: 13rem;
   }
 }
+.project-area {
+  min-height: 110vh;
+}
+
 .site-main .project-area {
   padding: 4rem 0;
 }
@@ -156,6 +164,56 @@ button:hover,
   box-shadow: none !important;
 }
 
+.about-area {
+  min-width: 100vh !important;
+}
+
+.site-main .about-area .about-title p {
+  padding: 1rem 7rem;
+}
+
+.site-main .about-area .client {
+  background: #ffffff10 !important;
+  box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+  margin: 3rem 0rem;
+}
+
+.site-main .about-area .client .client-img {
+  padding: 2rem;
+}
+
+.img-testimonials {
+  border-radius: 50%;
+}
+
+.site-main .about-area .client .about-client {
+  padding-top: 2rem;
+}
+
+.site-main .about-area .client .about-client h4 {
+  font: normal 500 21px/20px var(--roboto);
+}
+
+.site-main .about-area .client .about-client p {
+  font-size: 14px;
+}
+
+.site-main .about-area .owl-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span {
+  background: #333;
+  width: 12px;
+  height: 12px;
+}
+
+.navbar-toggler-icon {
+  border: none !important;
+}
+
 html {
   scroll-behavior: smooth !important;
 }
@@ -184,6 +242,18 @@ body {
   to {
     opacity: 1;
   }
+}
+.navbar_fixed {
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  right: 0;
+  background: #fff;
+  opacity: 0.8;
+  box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+  z-index: 999;
+  transition: background 1s ease;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
